@@ -1,0 +1,48 @@
+body {
+    background-color: #F4C272;
+}
+
+
+main {
+    text-align: center;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main h1 {
+   font-family:Helvetica;
+   color: aliceblue;
+   font-size: 69px;
+   margin-bottom: 0;
+   text-align: center;
+   text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+nav {
+    font-family:Helvetica;
+    color: aliceblue;
+   font-size: 30px;
+   margin-top: 0px;
+   text-align: center;
+}
+
+nav li {
+  border-radius: 4px;
+  color: aliceblue;
+  display: inline-block;
+  font-weight: 800;
+  width: 160px;
+  padding: 10px 30px;
+  margin: 5px 10px;
+  border: 2px solid aliceblue;
+  text-align: center;
+}
+
+.nav_buttons:hover {
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+    color: #F4C272;
+}
